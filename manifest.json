@@ -1,0 +1,15 @@
+{
+  "name": "レシピ写真帳",
+  "short_name": "レシピ帳",
+  "description": "レシピ名で検索して保存した写真を呼び出せる、料理の写真アルバム",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fdf8f4",
+  "theme_color": "#e8714f",
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
