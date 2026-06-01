@@ -162,6 +162,12 @@
   .photo-add .plus { font-size: 26px; font-weight: 300; line-height: 1; }
   .photo-add .lbl { font-size: 10px; font-weight: 700; }
 
+  .btn-save-big {
+    width: 100%; border: none; background: var(--accent); color: #fff;
+    padding: 17px; border-radius: 14px; font-size: 17px; font-weight: 800; cursor: pointer;
+    box-shadow: 0 4px 14px rgba(232,113,79,.4); min-height: 56px; margin-bottom: 12px;
+  }
+  .btn-save-big:active { transform: scale(0.98); }
   .btn-delete-recipe {
     width: 100%; border: none; background: #fbe7e2; color: var(--accent-dark);
     padding: 14px; border-radius: 12px; font-size: 15px; font-weight: 700; cursor: pointer;
@@ -269,6 +275,7 @@
         <label>メモ（材料・作り方など・任意）</label>
         <textarea id="memoInput" placeholder="材料や手順、コツなどを自由に…"></textarea>
       </div>
+      <button class="btn-save-big" onclick="saveRecipe()">✓ 保存する</button>
       <button class="btn-delete-recipe" id="deleteBtn" style="display:none;" onclick="deleteCurrentRecipe()">🗑 このレシピを削除</button>
     </div>
   </div>
